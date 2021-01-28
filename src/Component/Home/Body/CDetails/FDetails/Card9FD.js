@@ -46,8 +46,6 @@ function Card9FD() {
   return (
     <div>
 
-      <Header />
-      
       {/* VINTAGE CARDS 9 */}
       <div class="container">
         <div class="row">
@@ -97,7 +95,6 @@ function Card9FD() {
 
   
 <br/>
-      <Footer />
     </div>
   )
 }

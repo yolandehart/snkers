@@ -1,10 +1,24 @@
 import React from 'react';
-import Card from '../Body/Card/Card'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
+import White from '../Body/White/White'
+import Tech from '../Body/Tech/Tech'
+import Vintage from '../Body/Vintage/Vintage'
+import Color from '../Body/Color/Color'
 
 function Body() {
   return(
     <div>
-      <Card/>
+
+     
+
+      <White />
+      <Tech />
+      <Vintage />
+      <Color />
+
+      
+    
       
     </div>
   )

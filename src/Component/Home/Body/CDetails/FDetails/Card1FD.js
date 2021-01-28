@@ -46,7 +46,7 @@ function Card1FD() {
   const bull = <span className={classes.bullet}>•</span>;
   return (
     <div>
-      <Header />
+      
 
        
       {/* WHITE CARDS 1 */}
@@ -97,7 +97,6 @@ function Card1FD() {
       </div>
   
 <br/>
-      <Footer />
     </div>
   )
 }

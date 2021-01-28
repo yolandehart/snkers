@@ -187,7 +187,27 @@ export default function PrimarySearchAppBar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <IconButton aria-label=" " color="inherit">
+            <IconButton aria-label=" " color="inherit" onClick={()=> handlePath('/white')}>
+              <Link style={{textDecoration:'none', color:'black', fontSize: '12px'}} to='/white'>White</Link>
+            </IconButton>
+            </MenuItem>
+      <MenuItem>
+            <IconButton aria-label=" " color="inherit" onClick={()=> handlePath('/tech')}>
+            <Link style={{textDecoration:'none', color:'black', fontSize: '12px'}} to='/tech'>Tech</Link>
+            </IconButton>
+            </MenuItem>
+      <MenuItem>
+            <IconButton aria-label=" " color="inherit" onClick={()=> handlePath('/vintage')}>
+            <Link style={{textDecoration:'none', color:'black', fontSize: '12px'}} to='/vintage'>Vintage</Link>
+            </IconButton>
+            </MenuItem>
+      <MenuItem>
+            <IconButton aria-label=" " color="inherit" onClick={()=> handlePath('/color')}>
+            <Link style={{textDecoration:'none', color:'black', fontSize: '12px'}} to='/color'>Color</Link>
+            </IconButton>
+
+
+        {/* <IconButton aria-label=" " color="inherit">
           <Badge badgeContent={1} color="secondary">
             <MailIcon />
           </Badge>
@@ -201,8 +221,17 @@ export default function PrimarySearchAppBar() {
             <NotificationsIcon />
           </Badge>
         </IconButton>
-        <p>Notifications</p>
+        <p>Notifications</p> */}
       </MenuItem>
+
+      <MenuItem>
+      <IconButton>
+              
+              <SearchIcon style={{color: "black"}}/>
+             
+              </IconButton>
+              <p style={{fontSize:"12px"}}>Search</p>
+              </MenuItem>
 
       <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
@@ -212,7 +241,7 @@ export default function PrimarySearchAppBar() {
           color="inherit">
           <AccountCircle />
         </IconButton>
-        <p>Profile</p>
+        <p style={{fontSize:"12px"}}>Profile</p>
       </MenuItem>
     </Menu>
   );
@@ -349,8 +378,7 @@ export default function PrimarySearchAppBar() {
       </AppBar>
       
       {/* {renderCarousel} */}
-      {/* {renderMobileMenu}  */}
-
+      {renderMobileMenu} 
       {renderMenu} 
     </div>
   );

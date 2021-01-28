@@ -46,8 +46,6 @@ function Card10FD() {
   return (
     <div>
 
-      <Header />
-      
       {/* VINTAGE CARDS 10 */}
       <div class="row">
           <div class="col-sm">
@@ -95,7 +93,6 @@ function Card10FD() {
 
   
 <br/>
-      <Footer />
     </div>
   )
 }

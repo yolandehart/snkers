@@ -46,8 +46,6 @@ function Card13FD() {
   return (
     <div>
 
-      <Header />
-      
       {/* COLOR CARDS 13 */}
       <div class="container">
         <div class="row">
@@ -96,7 +94,6 @@ function Card13FD() {
         </div>
   
 <br/>
-      <Footer />
     </div>
   )
 }

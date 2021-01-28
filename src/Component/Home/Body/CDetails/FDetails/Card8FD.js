@@ -46,8 +46,6 @@ function Card8FD() {
   return (
     <div>
 
-      <Header />
-      
       {/* TECH CARDS 8 */}
       <div class="row">
           <div class="col-sm">
@@ -95,7 +93,6 @@ function Card8FD() {
 
   
 <br/>
-      <Footer />
     </div>
   )
 }

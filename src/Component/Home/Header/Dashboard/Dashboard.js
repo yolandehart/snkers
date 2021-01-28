@@ -29,7 +29,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link style={{color: "red"}} href="https://material-ui.com/">
-        Your Website
+        SNKERS
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -132,7 +132,7 @@ export default function Dashboard() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)} style={{backgroundColor: '#232526'}}>
+      <AppBar position="absolute" className={clsx(classes.appBar)} style={{backgroundColor: '#232526'}}>
 
         <Toolbar className={classes.toolbar}>
           <IconButton
@@ -144,7 +144,7 @@ export default function Dashboard() {
             <MenuIcon />
           </IconButton>
 
-          <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
+          <Typography component="h3" variant="h6" color="inherit" noWrap className={classes.title} >
             Dashboard
           </Typography>
 
@@ -202,7 +202,7 @@ export default function Dashboard() {
             </Grid>
           </Grid>
           <Box pt={4}>
-            <Copyright />
+            {/* <Copyright /> */}
           </Box>
         </Container>
       </main>

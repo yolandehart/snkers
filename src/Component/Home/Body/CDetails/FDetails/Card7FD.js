@@ -47,8 +47,6 @@ function Card7FD() {
   return (
     <div>
 
-      <Header />
-      
       {/* TECH CARDS 7 */}
       <div class="container">
         <div class="row">
@@ -98,7 +96,6 @@ function Card7FD() {
 
   
 <br/>
-      <Footer />
     </div>
   )
 }

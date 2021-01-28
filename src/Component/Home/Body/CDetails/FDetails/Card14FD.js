@@ -46,8 +46,6 @@ function Card14FD() {
   return (
     <div>
 
-      <Header />
-      
       {/* COLOR CARDS 14 */}
       <div class="row">
           <div class="col-sm">
@@ -94,7 +92,6 @@ function Card14FD() {
         </div>
   
 <br/>
-      <Footer />
     </div>
   )
 }

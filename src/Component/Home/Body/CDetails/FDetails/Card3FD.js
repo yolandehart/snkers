@@ -46,7 +46,6 @@ function Card3FD() {
   const bull = <span className={classes.bullet}>•</span>;
   return (
     <div>
-      <Header />
       
       {/* WHITE CARDS 3 */}
       <div class="container">
@@ -96,7 +95,6 @@ function Card3FD() {
         </div> 
   
 <br/>
-      <Footer />
     </div>
   )
 }

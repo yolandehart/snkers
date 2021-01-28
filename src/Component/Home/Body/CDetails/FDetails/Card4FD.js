@@ -47,7 +47,6 @@ function Card4FD() {
   return (
     <div>
 
-      <Header />
       
       {/* WHITE CARDS 4 */}
       <div class="row">
@@ -95,7 +94,6 @@ function Card4FD() {
         </div>
   
 <br/>
-      <Footer />
     </div>
   )
 }

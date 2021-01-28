@@ -46,8 +46,6 @@ function Card16FD() {
   return (
     <div>
 
-      <Header />
-      
       {/* COLOR CARDS 16 */}
       <div class="row">
           <div class="col-sm">
@@ -94,8 +92,8 @@ function Card16FD() {
         </div>
 
   
-<br/>
-      <Footer />
+<br
+
     </div>
   )
 }

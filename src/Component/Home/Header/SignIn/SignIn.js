@@ -28,7 +28,7 @@ function Copyright() {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    height: '100vh',
+    height: '90vh',
   },
   image: {
     backgroundImage: 'url(https://source.unsplash.com/random)',
@@ -37,12 +37,15 @@ const useStyles = makeStyles((theme) => ({
       theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
     backgroundSize: 'cover',
     backgroundPosition: 'center',
+    height: 600
+    
   },
   paper: {
     margin: theme.spacing(8, 4),
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    height: 410
   },
   avatar: {
     margin: theme.spacing(1),
@@ -51,6 +54,7 @@ const useStyles = makeStyles((theme) => ({
   form: {
     width: '100%', // Fix IE 11 issue.
     marginTop: theme.spacing(1),
+    
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
@@ -63,7 +67,7 @@ export default function SignInSide() {
   
   return (
     <div>
-      <Header/>
+      
     <Grid container component="main" className={classes.root}>
       <CssBaseline />
       <Grid item xs={false} sm={4} md={7} className={classes.image} />
@@ -131,10 +135,10 @@ export default function SignInSide() {
               {/* social media */}
             <div class="container">
               <div class="row">
-                <div class="col-md-12 col-sm-6 col-xs-12">
+                {/* <div class="col-md-12 col-sm-6 col-xs-12">
                   <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by SNKERS.
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
             </Box>

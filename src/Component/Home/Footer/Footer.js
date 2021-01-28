@@ -1,8 +1,10 @@
 import React from 'react';
 import '../Footer/Css/Styles.css'
 
+
 function Footer() {
   return (
+    
 <>
       <ul class="social-media-icons">
         <li><a class="instagram" href="https://www.instagram.com/">Instagram</a></li>

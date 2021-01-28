@@ -2,6 +2,7 @@ import React from 'react';
 // imoprt main css file
 import './index.css'
 // custom components
+import Header from '../src/Component/Home/Header/Header'
 import Home from '../src/Component/Home/Home'
 import White from '../src/Component/Home/Body/White/White'
 import Tech from '../src/Component/Home/Body/Tech/Tech'
@@ -38,6 +39,8 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 function App () {
     return(
         <BrowserRouter>
+<Header />
+
            <Route exact path="/" component={Home} />
            <Route path="/white" component={White} />
            <Route path="/tech" component={Tech} />
@@ -65,7 +68,8 @@ function App () {
            <Route path="/card15" component={Card15FD} />
            <Route path="/card16" component={Card16FD} />
 
-          
+          <Footer />
+
         </BrowserRouter>  
     )
   }

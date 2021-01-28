@@ -47,8 +47,6 @@ function Card6FD() {
   return (
     <div>
 
-      <Header />
-      
       {/* TECH CARDS 6 */}
       <div class="row">
           <div class="col-sm">
@@ -95,7 +93,6 @@ function Card6FD() {
         </div>
   
 <br/>
-      <Footer />
     </div>
   )
 }
