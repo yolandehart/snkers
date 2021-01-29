@@ -89,11 +89,8 @@ function Card16FD() {
             </div><br/>
           </div>
           <img src="https://thumbs.dreamstime.com/b/new-year-sale-shopping-banner-background-flat-design-snowflakes-gold-glittering-frame-text-shadow-pattern-81995950.jpg" />
-        </div>
-
-  
-<br
-
+          </div>   
+<br/>
     </div>
   )
 }
